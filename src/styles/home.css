@@ -1,0 +1,43 @@
+/* 
+off-white rgba(255,250,255,255) 
+pinky light pink rgb(253, 233, 234);
+chestnut light pink rgb(249, 224, 219);
+
+button pink rgb(243, 159, 163);
+chestnut pink rgb(231, 181, 172);
+strong brown pink rgba(137,80,97,255)
+
+light green rgb(134, 159, 119);
+dark green rgb(88, 128, 97);
+text dark green rgb(35, 54, 39);
+*/
+
+.home-wrapper {
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    overflow: hidden;
+    border: 0.15rem solid;
+    border-radius: 25px;
+    border-color: rgb(35, 54, 39);
+    background-image: linear-gradient(to top, #fbd0d2, #f7cbcb, #f4c6c4, #f0c1bd, #ecbcb6, #e7bdb1, #e2bdad, #dcbeab, #d3c4b0, #ccc9b9, #cacdc3, #cccfcc);
+}
+
+.hello {
+    color: rgb(35, 54, 39);
+    font-family: 'Philosopher', sans-serif;
+}
+
+.hello h1 {
+    margin: 2rem 2rem 4rem 2rem;
+}
+
+.hello span {
+    font-size: 1.2rem;
+}
+
+.last-p {
+    margin: 4rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}

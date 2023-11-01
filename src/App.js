@@ -1,25 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route, Link, NavLink } from 'react-router-dom';
+import Home from "./Home"
+import Counter from "./Counter";
+import QuizApp from "./QuizApp"
+import Calculator from './Calculator';
+import TodoApp from './TodoApp';
+import WeatherApp from './WeatherApp';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className='App'>
+        <header>
+          <nav>
+            <div className='angies-projekte'>
+               <h1 >Angie's Projekte</h1>
+            </div> 
+            <div className='nav-links'> 
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="TodoApp">To Do</NavLink>
+              <NavLink to="Counter">Zähler</NavLink>
+              <NavLink to="QuizApp">Quiz</NavLink>
+              <NavLink to="Calculator">Rechner</NavLink>
+              <NavLink to="WeatherApp">Wetter App</NavLink>
+            </div> 
+          </nav>
+        </header>
+        <main> 
+          <Routes> 
+              <Route index element={<Home />} />
+              <Route path="TodoApp" element={<TodoApp />} />
+              <Route path="Counter" element={<Counter />} />
+              <Route path="QuizApp" element={<QuizApp />} />
+              <Route path="Calculator" element={<Calculator />} />
+              <Route path="WeatherApp" element={<WeatherApp />} />
+          </Routes>
+        </main> 
+      </div>
+    </BrowserRouter>
   );
+
 }
 
 export default App;

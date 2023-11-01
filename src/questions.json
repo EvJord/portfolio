@@ -1,0 +1,42 @@
+[
+    {
+        "text": "Beginnen wir leicht: Wer schrieb \"Der Herr der Ringe\"?",
+        "options": [
+            {"id": 0, "text": "Sebastian Fitzek", "isCorrect": false },
+            {"id": 1, "text": "J. K. Rowling", "isCorrect": false },
+            {"id": 2, "text": "J. R. R. Tolkien", "isCorrect": true }
+        ]
+    },
+    {
+        "text": "Wie viele Ringe der Macht wurden insgesamt hergestellt?",
+        "options": [
+            {"id": 0, "text": "1", "isCorrect": false },
+            {"id": 1, "text": "20", "isCorrect": true },
+            {"id": 2, "text": "7", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Wie heißt Gollum auch noch?",
+        "options": [
+            {"id": 0, "text": "Schagrat", "isCorrect": false },
+            {"id": 1, "text": "Sméagol", "isCorrect": true },
+            {"id": 2, "text": "Sandigmann", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Wer waren die Orks ursprünglich?",
+        "options": [
+            {"id": 0, "text": "Elben", "isCorrect": true },
+            {"id": 1, "text": "Menschen", "isCorrect": false },
+            {"id": 2, "text": "Trolle", "isCorrect": false }
+        ]
+    },
+    {
+        "text": "Nach seiner Verwandlung hat Gandalf nicht mehr den Beinamen \"der Graue\", sondern...?",
+        "options": [
+            {"id": 0, "text": "der Schwarze", "isCorrect": false },
+            {"id": 1, "text": "der Weise", "isCorrect": false },
+            {"id": 2, "text": "der Weiße", "isCorrect": true }
+        ]
+    }
+]

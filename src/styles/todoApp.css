@@ -1,0 +1,116 @@
+/* 
+off-white rgba(255,250,255,255) 
+pinky light pink rgb(253, 233, 234);
+chestnut light pink rgb(249, 224, 219);
+
+button pink rgb(243, 159, 163);
+chestnut pink rgb(231, 181, 172);
+strong brown pink rgba(137,80,97,255)
+
+light green rgb(134, 159, 119);
+dark green rgb(88, 128, 97);
+dark green text rgb(60, 94, 68);
+*/
+
+.all-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.todoapp-border {
+    width: 50vw;
+    height: 60vh;
+    border: 0.15rem solid;
+    border-radius: 25px;
+    border-color: rgb(35, 54, 39);
+    background-image: linear-gradient(to top, #fbd0d2, #f7cbcb, #f4c6c4, #f0c1bd, #ecbcb6, #e7bdb1, #e2bdad, #dcbeab, #d3c4b0, #ccc9b9, #cacdc3, #cccfcc);
+}
+
+.todo-header {
+    text-align: center;
+    color: rgb(35, 54, 39);
+    font-family: 'Tilt Prism', cursive;
+}
+
+.motivational-text {
+    height: 1.8rem;
+    width: 40%;
+    margin: 20px auto;
+    color: rgb(35, 54, 39);
+    font-family: 'Philosopher', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input-casing {
+    width: 65%;
+    margin: 0 auto;
+    background-color: rgb(60, 94, 68);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-field {
+    padding-left: 15px;
+    height: 1.8rem;
+    width: 75%;
+    border: none;
+    border-radius: 25px;
+    color: rgb(253, 233, 234);
+    background-color: rgb(60, 94, 68);
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    
+}
+
+input::placeholder{ 
+    color: rgb(197, 182, 183);
+}
+
+input:focus{ 
+    outline: none;
+}
+
+.add-button {
+    margin: 3px;
+    border-radius: 25px;
+    border: none;
+    height: 1.8rem;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    background-color: rgb(243, 159, 163);
+    color: rgb(60, 94, 68);
+}
+
+.ul-list {
+    list-style: none;
+    padding-left: 1px;
+}
+
+.delete-button {
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    height: 1rem;
+    font-weight: bold;
+    background-color: rgb(243, 159, 163);
+    color: rgb(60, 94, 68);
+}
+
+.list-item {
+    padding-left: 15px;
+    min-height: 1.8rem;
+    width: 50%;
+    margin: 5px auto;
+    color: rgb(35, 54, 39);
+    font-family: 'Philosopher', sans-serif;
+    background-color: rgb(155, 175, 143);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-all;
+}

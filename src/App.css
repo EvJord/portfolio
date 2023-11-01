@@ -1,38 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,400;1,700&display=swap');
+
+/* 
+off-white rgba(255,250,255,255) 
+pinky light pink rgb(253, 233, 234);
+chestnut light pink rgb(249, 224, 219);
+
+chestnut pink rgb(231, 181, 172);
+strong brown pink rgba(137,80,97,255)
+
+light green rgb(134, 159, 119);
+dark green rgb(88, 128, 97);
+text dark green rgb(35, 54, 39);
+*/
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ============= NAV BAR ============= */
+
+.angies-projekte {
+  color: rgb(35, 54, 39);
+  font-family: 'Tilt Prism', cursive;
+  font-size: 4vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 12vw;
+  margin: 5vw;
+  font-family: 'Lobster', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(60, 94, 68);
+  font-size: 2vh;
+  padding: 5px;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover, a:active {
+  background-color: rgb(249, 224, 219);
+  border-radius: 15px;
+  line-height: 2vh;
+  transform: scale(1.5)
+ 
 }

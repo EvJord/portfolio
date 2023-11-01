@@ -1,0 +1,67 @@
+/* 
+off-white rgba(255,250,255,255);
+pinky light pink rgb(253, 233, 234);
+chestnut light pink rgb(249, 224, 219);
+ 
+button pink rgb(243, 159, 163);
+chestnut pink rgb(231, 181, 172);
+strong brown pink rgba(137,80,97,255)
+ 
+light green rgb(134, 159, 119);
+dark green rgb(88, 128, 97);
+text dark green rgb(35, 54, 39);
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.calculator-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-grid {
+    background-image: linear-gradient(to top, #fbd0d2, #f7cbcb, #f4c6c4, #f0c1bd, #ecbcb6, #e7bdb1, #e2bdad, #dcbeab, #d3c4b0, #ccc9b9, #cacdc3, #cccfcc);
+    border: 0.15rem solid rgb(35, 54, 39);
+    border-radius: 15px;
+}
+
+.digits-field {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem;
+    justify-content: space-around;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: rgba(88, 128, 97, 0.4);
+    margin: 1rem 1rem;
+    border-radius: 15px;
+    
+}
+
+.current-numbers {
+    color: rgb(35, 54, 39);
+    font-size: 2.5rem;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.buttons-field {
+    display: grid;
+    margin: 2rem 1rem 1rem 1rem;
+    text-align: center;
+    grid-template-columns: repeat(3, 7.5rem);
+    grid-template-rows: minmax(4rem, auto) repeat(5, 4rem);
+}
+
+.buttons-field button {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    border-radius: 35px;
+    margin: 2px;
+    font-size: 1rem;
+    border: 0.15rem solid rgba(88, 128, 97, 0.05);;
+    background-color: rgba(88, 128, 97, 0.2);
+}
