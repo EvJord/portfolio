@@ -55,3 +55,21 @@ dark green text rgb(60, 94, 68);
     background-color: rgb(243, 159, 163);
     color: rgb(24, 44, 66);
 }
+
+@media only screen and (max-width: 1000px) {
+    .counter-buttons {
+        display: grid;
+    }
+    
+    .counter-parent {
+        width: 80vw;
+        height: 50vh;
+    }
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .counter-parent h1 {
+        font-size: 3vh;
+    }
+  }

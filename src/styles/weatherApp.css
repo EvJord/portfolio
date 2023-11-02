@@ -7,7 +7,7 @@
 
 .weather-card { 
     width: 40vw;
-    height: 60vh;
+    height: auto;
     background-image: linear-gradient(to top, #fbd0d2, #f7cbcb, #f4c6c4, #f0c1bd, #ecbcb6, #e7bdb1, #e2bdad, #dcbeab, #d3c4b0, #ccc9b9, #cacdc3, #cccfcc);
     border: 0.15rem solid rgb(35, 54, 39);
     border-radius: 15px; 
@@ -62,6 +62,7 @@ input::placeholder {
 
 .data-cards {
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .temperature-condition {
@@ -74,4 +75,37 @@ input::placeholder {
     margin: auto 2rem;
     border-radius: 15px;
     padding: 2rem;
+}
+
+@media only screen and (max-width: 1335px) {
+    .weather-card {
+        width: 80vw;
+        height: auto;
+    }
+    
+    .set-windows {
+        width: 10vw;
+      
+    }
+
+    .set-windows p {
+        font-size: 2vh;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .set-windows {
+        width: 20vw;
+    }
+
+    .location {
+        font-size: 3vh;
+    }
+
+    .temperature-condition h1 {
+        font-size: 2.5vh;
+    }
+
+    .temperature-condition h2 {
+        font-size: 2vh;
+    }
 }

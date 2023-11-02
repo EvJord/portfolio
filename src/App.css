@@ -32,8 +32,6 @@ text dark green rgb(35, 54, 39);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 12vw;
-  margin: 5vw;
   font-family: 'Lobster', cursive;
 }
 
@@ -41,8 +39,7 @@ a:link, a:visited {
   text-decoration: none;
   color: rgb(60, 94, 68);
   font-size: 2vh;
-  padding: 5px;
- 
+  padding: 20px 30px 40px 30px;
 }
 
 a:hover, a:active {
@@ -50,5 +47,10 @@ a:hover, a:active {
   border-radius: 15px;
   line-height: 2vh;
   transform: scale(1.5)
- 
+}
+
+@media only screen and (max-width: 800px) {
+  a:link, a:visited {
+    padding: 10px 20px 30px 20px;
+  }
 }

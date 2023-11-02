@@ -36,8 +36,33 @@ text dark green rgb(35, 54, 39);
     font-size: 1.2rem;
 }
 
+
+
 .last-p {
     margin: 4rem;
     font-weight: bold;
     font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-wrapper {
+        width: 80vw;
+        height: auto;
+    }
+
+    .hello h1 {
+        font-size: 3vh;
+        margin: 4vh;
+    }
+   
+    
+    .hello span {
+        font-size: 2vh;
+    }
+
+    .last-p {
+        font-size: 2.5vh;
+        margin: 4vh;
+    }
+
 }

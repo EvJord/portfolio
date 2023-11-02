@@ -65,3 +65,8 @@ text dark green rgb(35, 54, 39);
     border: 0.15rem solid rgba(88, 128, 97, 0.05);;
     background-color: rgba(88, 128, 97, 0.2);
 }
+
+@media only screen and (max-width: 1000px) {
+  
+
+}

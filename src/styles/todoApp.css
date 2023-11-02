@@ -32,9 +32,9 @@ dark green text rgb(60, 94, 68);
     font-family: 'Tilt Prism', cursive;
 }
 
-.motivational-text {
+.motivational-text { 
     height: 1.8rem;
-    width: 40%;
+    width: 50%;
     margin: 20px auto;
     color: rgb(35, 54, 39);
     font-family: 'Philosopher', sans-serif;
@@ -42,6 +42,8 @@ dark green text rgb(60, 94, 68);
     justify-content: space-evenly;
     align-items: center;
 }
+
+
 
 .input-casing {
     width: 65%;
@@ -113,4 +115,28 @@ input:focus{
     justify-content: space-between;
     align-items: center;
     word-break: break-all;
+}
+
+@media only screen and (max-width: 1000px) {
+    .todoapp-border {
+        width: 80vw;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .todo-header {
+        font-size: 4vh;
+    }
+    
+    .motivational-text { 
+        font-size: 2vh;
+        width: auto;
+    }
+
+    .list-item {
+        font-size: 2vh;
+    }
+
 }

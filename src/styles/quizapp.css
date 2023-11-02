@@ -42,7 +42,7 @@ text dark green rgb(35, 54, 39);
 
 .questions-card {
     width: 95%;
-    height: 31vh;
+    height: auto;
     background-color: rgba(86, 94, 81, 0.144);
     border-radius: 25px;
     font-family: 'Philosopher', sans-serif;
@@ -95,4 +95,26 @@ text dark green rgb(35, 54, 39);
 .result-card h1 {
     color: rgb(255, 186, 59);
     text-shadow: rgb(35, 54, 39) 0px 0px 2px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .quiz-wrapper {
+        width: 80vw;
+        height: auto;
+    }
+
+    .quiz-wrapper > h1 {
+        font-size: 4vh;
+        padding: 10px;
+    }
+
+    .questions-card {
+        font-size: 2vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .result-card {
+        font-size: 1.5vh;
+    }
 }
